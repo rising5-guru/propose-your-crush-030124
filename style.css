@@ -1,0 +1,44 @@
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+.bg_heart {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-image: url("https://i.pinimg.com/originals/02/7b/a7/027ba7f85ea094ac04523f00b6b95936.jpg");
+  background-size: 100vh 100vh;
+  background-size: cover;
+  z-index: -1;
+  animation: animato 55s infinite ease-in-out;
+}
+
+@keyframes animato {
+  0% {
+    background-image: url("https://i.pinimg.com/originals/33/99/99/33999973873e843f236c7e20d04c108f.jpg");
+  }
+  25% {
+    background-image: url("https://i.pinimg.com/originals/97/97/7b/97977b94dd63f15d1f277b35a1538415.jpg");
+  }
+  50% {
+    background-image: url("https://i.pinimg.com/originals/e0/19/44/e01944e1fe3de1171ff63e9bf01ed2db.jpg");
+  }
+  80% {
+    background-image: url("https://i.pinimg.com/originals/60/76/4b/60764b5cadab8417f6f1a262901ddd36.jpg");
+  }
+}
+
+.container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-family: cursive;
+}
